@@ -9,7 +9,7 @@ const car = {
 const getCarProperties = function(car){
 
 	for(let key in car){
-		console.log(`car[key]`);
+		console.log(car[key]);
 	}
 }
 
